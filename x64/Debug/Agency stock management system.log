@@ -1,0 +1,5 @@
+﻿  Agency stock management system.cpp
+D:\DSA\Agency stock management system\Agency stock management system\Agency stock management system.cpp(72,6): warning C4101: 'subTotal': unreferenced local variable
+D:\DSA\Agency stock management system\Agency stock management system\Agency stock management system.cpp(220): warning C4717: 'selectMenu': recursive on all control paths, function will cause runtime stack overflow
+D:\DSA\Agency stock management system\Agency stock management system\Header.h(512): warning C4715: 'Items_List::searchSellPrice': not all control paths return a value
+  Agency stock management system.vcxproj -> D:\DSA\Agency stock management system\x64\Debug\Agency stock management system.exe
