@@ -1,8 +1,8 @@
-Overview
+# Overview
 
 This C++ project implements a simple inventory management system. The system maintains a list of customers, suppliers, and items, and allows basic operations like insertion, deletion, editing, and searching. The primary classes involved are TempCustomer, Transactions_List, TempItem, and Items_List.
 
-Classes and Their Functions
+# Classes and Their Functions
 
 1. TempCustomer
    
