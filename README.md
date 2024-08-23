@@ -4,11 +4,11 @@ This C++ project implements a simple inventory management system. The system mai
 
 # Classes and Their Functions
 
-1. TempCustomer
+## 1. TempCustomer
    
 A class representing a temporary customer or supplier in the system.
 
-Attributes:
+### Attributes:
 
 string name: The name of the customer/supplier.
 int ctNo: The contact number of the customer/supplier.
