@@ -17,11 +17,11 @@ Constructors:
 Default constructor: Initializes name to an empty string and ctNo to 0.
 Overloaded constructor: Takes name and ctNo as parameters and initializes the respective attributes.
 
-2. Transactions_List
+## 2. Transactions_List
    
 A class that manages the list of customers or suppliers.
 
-Attributes:
+### Attributes:
 
 TempCustomer* head: Pointer to the first customer/supplier in the list.
 TempCustomer* tail: Pointer to the last customer/supplier in the list.
@@ -39,11 +39,11 @@ deleteSupplier(int pos): Deletes a supplier at a specific position.
 editCustomer(int pos): Edits the details of a customer at a specific position.
 editSupplier(int pos): Edits the details of a supplier at a specific position.
 
-3. TempItem
+## 3. TempItem
    
 A class representing a temporary item in the system.
 
-Attributes:
+### Attributes:
 
 string name: The name of the item.
 int barcode: The barcode of the item.
