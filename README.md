@@ -52,22 +52,22 @@ float sellPrice: The selling price of the item.
 int quantity: The quantity of the item.
 TempItem* next: A pointer to the next item in the list.
 
-Constructors:
+### Constructors:
 
 Default constructor: Initializes name to an empty string, and quantity to 0.
 Overloaded constructor: Takes name, barcode, and sellPrice as parameters and initializes the respective attributes.
 
-4. Items_List
+## 4. Items_List
    
 A class that manages the list of items.
 
-Attributes:
+### Attributes:
 
 TempItem* head: Pointer to the first item in the list.
 TempItem* tail: Pointer to the last item in the list.
 int size: The current size of the list.
 
-Functions:
+### Functions:
 
 insertItem(): Adds a new item to the list.
 printItem_list(): Prints all items in a formatted table.
