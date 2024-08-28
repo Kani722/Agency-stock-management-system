@@ -79,7 +79,7 @@ searchInReceiveItem(int code, int quant, int totalPrice): Updates the quantity a
 searchInSaleItem(int code, int quant): Updates the quantity of an item after a sale.
 searchSellPrice(int code): Returns the selling price of an item identified by the barcode.
 
-How to Use
+### How to Use
 
 Insertion: Use the insertCustomer(), insertSupplier(), or insertItem() functions to add new entries to the respective lists.
 Printing: Use the printCustomer(), printSupplier(), or printItem_list() functions to view all entries in the lists.
@@ -87,7 +87,7 @@ Deletion: Use deleteCustomer(int pos), deleteSupplier(int pos), or deleteItem(in
 Editing: Use editCustomer(int pos), editSupplier(int pos), or editItem(int code) to modify an existing entry.
 Searching: Use searchInReceiveItem(int code, int quant, int totalPrice), searchInSaleItem(int code, int quant), or searchSellPrice(int code) to find or update specific items.
 
-Future Enhancements
+### Future Enhancements
 
 Implement error handling for invalid inputs and operations.
 Add file handling for saving and loading data.
@@ -95,6 +95,6 @@ Enhance the user interface for easier navigation and usage.
 Compilation
 To compile the program, use a C++ compiler like g++:
 
-Conclusion
+### Conclusion
 
 This project provides a basic inventory management system with functionality for managing customers, suppliers, and items. It serves as a foundational project for learning linked lists and basic CRUD operations in C++.
